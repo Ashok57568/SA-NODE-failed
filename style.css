@@ -1,0 +1,134 @@
+/* Navbar styling */
+*{
+    margin:0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar li {
+  margin: 20px;
+}
+
+.navbar a {
+  color: #0F0;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.navbar a:hover {
+  background-color: #00F;
+  color: #FFF;
+  box-shadow: 0 0 5px #000;
+}
+
+/* Home section styling */
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.5);
+  height:870px;
+  color: #FFF;
+  position: relative;
+}
+
+#home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(IMG_8208.jpeg) no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+/* Main content styling */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10% 2% 0 2%;
+  max-width: 60%;
+}
+
+.headings {
+  font-family: Century;
+  font-size: 3rem;
+  text-align: left;
+  margin: 20px ;
+}
+.subheadings{
+    font-family: century;
+    font-size: 2rem;
+    text-align: left;
+    color:greenyellow;
+    
+
+}
+
+#about {
+  display: flex;
+  size: cover;
+  box-sizing: border-box; 
+  
+  padding-top:20px;
+  /* margin-top: -100px; to reduce the gap between home and about section */
+  background-color:rgba(173, 216, 230, 1);
+}
+
+#pic {
+  display: flex;
+  /* justify-content: center; to center the image */
+  margin-bottom:2px; /* to create some space between image and intro */
+}
+
+#picimg {
+  
+  max-width:100px;
+  height:50px;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  font-size: 20px;
+  padding:5px;
+}
+
+#intro h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;;
+}
+.naya{
+    font-family: Century;
+    font-size:  2rem;
+    text-align: left;
+    margin: 5px;
+    background-color: #00F;
+  }
+
+  
+
